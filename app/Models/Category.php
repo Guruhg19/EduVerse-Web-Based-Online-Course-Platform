@@ -16,4 +16,9 @@ class Category extends Model
         'icon',
     ];
 
+    public function courses()
+    {
+        return $this->hasMany(Course::class);
+    }
+
 }
