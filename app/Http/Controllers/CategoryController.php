@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\StoreCategoryRequest;
 use App\Models\Category;
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
@@ -30,14 +31,12 @@ class CategoryController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
+    public function store(StoreCategoryRequest $request)
     {
-        $validated = $request->validate([
-            'name' => 'required|string|max:255',
-            'icon' => 'required|image|mimes:png,jpg,jpeg|max:2048',
-        ]);
 
-        DB::transaction(function () use ($validated, $request){
+
+        DB::transaction(function () use ($request){
+            $validated = $request->validated();
             if($validated['icon']){
                 $iconPath = $request->file('icon')->store('icons', 'public');
                 $validated['icon'] = $iconPath;
