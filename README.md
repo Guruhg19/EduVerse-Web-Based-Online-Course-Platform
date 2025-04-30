@@ -1,22 +1,26 @@
-# EduVerse – Web-Based Online Course Platform
+# 🎓 EduVerse – Web-Based Online Course Platform
 
-![Laravel](https://img.shields.io/badge/Laravel-11-red?style=flat&logo=laravel)
+![Laravel](https://img.shields.io/badge/Laravel-12-red?style=flat&logo=laravel)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-informational?style=flat&logo=mysql)
 ![Spatie](https://img.shields.io/badge/Spatie-Roles%20%26%20Permissions-blue?style=flat&logo=laravel)
 ![Breeze](https://img.shields.io/badge/Breeze-Starter%20Kit-lightgrey?style=flat&logo=laravel)
 
-## Deskripsi
-**EduVerse – Web-Based Online Course Platform** adalah platform pembelajaran online yang dirancang untuk memberikan kemudahan bagi siswa dalam mengakses dan mengikuti kelas secara digital. Aplikasi ini dibangun menggunakan Laravel 11, Laravel Breeze sebagai starter kit autentikasi, serta Spatie untuk manajemen peran dan izin pengguna.
+## 📘 Deskripsi
+**EduVerse** adalah platform kursus online berbasis web yang dirancang untuk memberikan pengalaman belajar yang interaktif dan terstruktur. Aplikasi ini dibangun menggunakan Laravel 12, Laravel Breeze, Spatie untuk manajemen peran pengguna, dan MySQL sebagai basis data.
 
+Tujuan dari project ini adalah memberikan kemudahan bagi siswa dan pengajar dalam mengakses materi pembelajaran secara daring dan sistematis.
 
-## Fitur Utama
-- Role manajemen: Super Admin, Teacher, dan Student.
-- CMS (Content Management System) untuk Super Admin dan Teacher.
-- Fitur berlangganan kelas oleh siswa.
-- Halaman pembelajaran untuk siswa berdasarkan kelas yang diikuti.
-- Sistem autentikasi dengan Laravel Breeze.
+## ✨ Fitur Utama
+- 👩‍🏫 **Role manajemen**: Super Admin, Teacher, dan Student.
+- 📚 **Berlangganan kelas**: Siswa dapat memilih dan mengikuti kelas tertentu.
+- 🧑‍🎓 **Halaman belajar khusus**: Untuk siswa yang telah terdaftar pada kelas.
+- ⚙️ **CMS untuk Teacher & Admin**: Mengelola kelas, materi, dan peserta.
+- 🔐 **Autentikasi dan manajemen peran**: Menggunakan Laravel Breeze dan Spatie.
 
-## Cara Menjalankan Proyek
+## 📂 Repository
+[EduVerse Web App - GitHub](https://github.com/Guruhg19/EduVerse-Web-Based-Online-Course-Platform.git)
+
+## 🚀 Cara Menjalankan Proyek
 
 1. **Clone Repository**
 ```bash
@@ -54,13 +58,14 @@ php artisan migrate --seed
 php artisan serve
 ```
 
-Akses aplikasi melalui [http://localhost:8000](http://localhost:8000)
+🔗 Akses aplikasi melalui [http://localhost:8000](http://localhost:8000)
 
 ---
 
-Project ini merupakan bagian dari portofolio web developer untuk menunjukkan kemampuan dalam membangun platform pembelajaran online yang modern dan efisien.
+📌 **Project ini merupakan bagian dari kelas BWA:**
+Laravel 11, Breeze, Spatie: Bikin Web Platform Online Course
 
 ---
 
-**🌟 Dibuat dengan semangat belajar dan eksplorasi teknologi web!**
 
+**🌟 Dibuat dengan semangat belajar & dedikasi! 💡**
